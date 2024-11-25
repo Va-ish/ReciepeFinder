@@ -1,4 +1,4 @@
-# Recipe Finder
+# Your Culinary Genie - A recipe finder app
 
 A fun and simple web application built with React that helps users find delicious recipes based on ingredients they provide. The app fetches data from the MealDB API, which provides a wide variety of meal recipes, and allows users to view recipes with ingredients and instructions. It's a great way to explore new recipes and get creative with the ingredients you have at home!
 
