@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation,useNavigate } from "react-router-dom";
 import SuggestionDisplay from "../components/SuggestionDisplay";
 import GenieSuggestions from "../components/GenieSuggestions";
-import oopsGenieImg from "../assets/images/oopsGenie.jpg"; // Import the "Oops Genie" image
+import oopsGenieImg from "../assets/images/oopsGenie.jpg";
 
 const Recipe = () => {
   
@@ -75,7 +75,6 @@ const Recipe = () => {
 
   return (
     <div>
-      {/* Only render GenieSuggestions if recipes are available */}
       {recipes.length > 0 && <GenieSuggestions ingredients={ingredients} />}
       <SuggestionDisplay recipes={recipes} />
     </div>

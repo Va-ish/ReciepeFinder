@@ -2,7 +2,7 @@ import React from "react";
 import SophieImg from "../assets/images/genie1 (2).png";
 import TypingEffect from "./TypewriterEffect";
 
-const WaitressIntro = () => {
+const GenieIntro = () => {
   const genieLines = [
     "Let me jot that down on my magic notepad! Share your wishes, and I’ll fetch the recipes you need."
    
@@ -24,4 +24,4 @@ const WaitressIntro = () => {
   );
 };
 
-export default WaitressIntro;
+export default GenieIntro;

@@ -1,4 +1,3 @@
-// HomePage.jsx
 import React from 'react';
 import MainPage from '../components/MainPage';
 import WaitressIntro from '../components/GenieIntro';

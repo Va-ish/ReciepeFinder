@@ -37,7 +37,6 @@ const NotepadForm = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="w-full max-w-4xl px-4 flex items-start justify-center space-x-10">
-        {/* Notepad form */}
         <div className="w-full sm:w-2/3 lg:w-1/2 rounded-lg bluebg text-primary shadow-lg shadow-blue-500">
           <p className="text-2xl font-semibold pt-6 text-center flex items-center justify-center">
             <FontAwesomeIcon icon={faPen} className="mr-2 text-yellow-900" />

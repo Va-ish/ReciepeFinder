@@ -1,7 +1,7 @@
 import React from "react";
 import Chef from "../assets/images/genie2 (1).png";
 
-const ChefSuggestions = () => {
+const Suggestions = () => {
   
   return (
     <div className="flex items-center justify-center pt-8 px-4 sm:px-6">
@@ -19,4 +19,4 @@ const ChefSuggestions = () => {
   );
 };
 
-export default ChefSuggestions;
+export default Suggestions;
